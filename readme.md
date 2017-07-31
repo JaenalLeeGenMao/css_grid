@@ -26,7 +26,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Authors
 
-* **Jaenal** - *Initial work* - [PurpleBooth](https://github.com/JaenalLeeGenMao)
+* **Jaenal** - *Initial work* - [JaenalLeeGenMao](https://github.com/JaenalLeeGenMao)
 
 ## License
 
