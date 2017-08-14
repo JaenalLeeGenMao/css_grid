@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="index.css"/>
+    <title>Parallex Effect</title>
+</head>
+<body>
+    <div class="navbar">
+        <ul class="navbar-nav">
+            <li><a href="#" onclick="showSidebar()"><i class="fa fa-bars fa-lg fa-inverse"></i></a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <div class="sidebar" id="sidebar">
+        <ul class="sidebar-content">
+            <a href="#" class="btn-close" onclick="closeSidebar()">&times;</a>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <div class="main" id="main">
+        <div class="pimg1">
+            <div class="ptext">
+                <span class="border">APARALLEX DEMO</span>
+            </div>
+        </div>
+        <section class="section section-light">
+            <h2>Section One</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </section>
+        <div class="pimg2">
+            <div class="ptext">
+                <span class="border transparent">BACKGROUND ATTACHMENT</span>
+            </div>
+        </div>
+        <section class="section section-dark">
+            <h2>Section Two</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </section>
+        <div class="pimg3">
+            <div class="ptext">
+                <span class="border transparent">FIXED ATTACHMENT</span>
+            </div>
+        </div>
+        <section class="section section-light">
+            <h2>Section Three</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </section>
+        <div class="pimg1">
+            <div class="ptext">
+                <span class="border">Jaenal Vlog</span>
+            </div>
+        </div>
+    </div>
+    <script>
+        function showSidebar() {
+            document.getElementById('sidebar').style.marginLeft = "0px";
+            document.getElementById('main').style.marginLeft = "250px";
+        }
+
+        function closeSidebar() {
+            document.getElementById('sidebar').style.marginLeft = "-250px";
+            document.getElementById('main').style.marginLeft = "0px";
+        }
+    </script>
+</body>
+</html>
